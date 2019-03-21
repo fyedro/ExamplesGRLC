@@ -1,0 +1,7 @@
+PREFIX cat: <http://dbpedia.org/resource/Category:>
+PREFIX ter: <http://purl.org/dc/terms/>
+ 
+select ?directores
+WHERE {
+?directores ter:subject cat:Fantasy_film_directors .
+}
