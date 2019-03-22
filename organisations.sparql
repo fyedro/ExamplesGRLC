@@ -2,7 +2,7 @@
 
 prefix ocds:<http://www.sintef.no/ontology/ocds/>
 
-select distinct ?s where {
+select distinct ?n where {
     ?s a ocds:Organisation .
     ?s ocds:hasName ?n
 } LIMIT 100
