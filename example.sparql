@@ -1,0 +1,8 @@
+
+#+ endpoint: http://data.businessgraph.io/repositories/tbfy
+
+prefix ocds:<http://www.sintef.no/ontology/ocds/>
+
+select distinct ?s ?p ?o where {
+    ?s ?p ?o
+} LIMIT 100
