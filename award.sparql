@@ -4,7 +4,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ocds: <http://www.sintef.no/ontology/ocds/>
 
-select distinct ?Contract
+select distinct ?Award
 where {
-    ?Contract rdf:type ocds:Award
+    ?Award rdf:type ocds:Award
 } LIMIT 10000
