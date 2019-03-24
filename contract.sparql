@@ -1,0 +1,10 @@
+
+#+ endpoint: http://data.businessgraph.io/repositories/tbfy
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ocds: <http://www.sintef.no/ontology/ocds/>
+
+select distinct ?o as ?Contract
+where {
+    ?o rdf:type ocds:Contract
+} LIMIT 10000
