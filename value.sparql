@@ -4,9 +4,9 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ocds: <http://www.sintef.no/ontology/ocds/>
 
-select distinct ?cnt ?name
+select distinct ?tnd ?value ?cur
 where {
-#    ?Contract rdf:type ocds:Contract
-    ?cnt a ocds:Contract .
-    ?cnt ocds:hasName ?name
+    ?tnd a ocds:Value .
+    ?tnd ocds:valueAmount ?value .
+    ?tnd ocds:valueCurrency ?cur
 } LIMIT 10000
