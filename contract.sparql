@@ -4,7 +4,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ocds: <http://www.sintef.no/ontology/ocds/>
 
-select distinct ?org ?name
+select distinct ?cnt ?name
 where {
 #    ?Contract rdf:type ocds:Contract
     ?cnt a ocds:Contract .
