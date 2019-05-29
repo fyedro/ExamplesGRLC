@@ -1,4 +1,4 @@
-#+ endpoint: http://52.19.213.234:7200/sparql
+#+ endpoint: http://52.19.213.234:7200/repositories/TBFY
 
 prefix ocds:<http://www.sintef.no/ontology/ocds/>
 
