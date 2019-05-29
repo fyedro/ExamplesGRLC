@@ -1,4 +1,4 @@
-#+ endpoint: http://data.businessgraph.io/repositories/tbfy
+#+ endpoint: http://52.19.213.234:7200/sparql
 
 prefix ocds:<http://www.sintef.no/ontology/ocds/>
 
