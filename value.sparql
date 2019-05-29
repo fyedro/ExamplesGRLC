@@ -1,5 +1,5 @@
 
-#+ endpoint: http://data.businessgraph.io/repositories/tbfy
+#+ endpoint: http://52.19.213.234:7200/sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ocds: <http://www.sintef.no/ontology/ocds/>
